@@ -36,5 +36,11 @@ TARGET_OTA_ASSERT_DEVICE := alioth,aliothin
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    system/lib64/libcameraservice.so|libmedia_jni_shim.so \
+	system/lib64/libcamera_algoup_jni.xiaomi.so|libmedia_jni_shim.so \
+	system/lib64/libcamera_mianode_jni.xiaomi.so|libmedia_jni_shim.so
+
 # Inherit from the proprietary version
 include vendor/xiaomi/alioth/BoardConfigVendor.mk
