@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "vendor_xiaomi_alioth",
+    "target_path": "vendor/xiaomi/alioth"
+  },
+
+  {
+    "repository": "alioth_vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common"
+  },
+
+  {
+    "repository": "kernel_xiaomi_alioth",
+    "target_path": "kernel/xiaomi/alioth"
+  },
+]
