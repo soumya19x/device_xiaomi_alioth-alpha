@@ -11,3 +11,6 @@ extern "C" {
 extern "C" {
      void _ZN7android20SensorPrivacyManager32isIndividualSensorPrivacyEnabledEii() {}
 }
+extern "C" {
+     void _ZN7android11CameraUtils20getRotationTransformERKNS_14CameraMetadataEPi() {}
+}
